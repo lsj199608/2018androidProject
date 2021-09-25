@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:scaleType="fitXY"
+            android:id="@+id/btn_back">
+        </ImageButton>
+        <EditText
+            android:id="@+id/Edit1"
+            android:layout_width="309dp"
+            android:layout_height="50dp">
+        </EditText>
+        <Button
+            android:text="검색"
+            android:id="@+id/btn_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+        </Button>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="370dp"
+            android:id="@+id/text1"
+            android:layout_height="match_parent"></TextView>
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"></ImageButton>
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="370dp"
+                    android:id="@+id/text2"
+                    android:layout_height="match_parent"></TextView>
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"></ImageButton>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="370dp"
+                    android:id="@+id/text3"
+                    android:layout_height="match_parent"></TextView>
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"></ImageButton>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="370dp"
+                    android:id="@+id/text4"
+                    android:layout_height="match_parent"></TextView>
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"></ImageButton>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/layout5"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="370dp"
+                    android:id="@+id/text5"
+                    android:layout_height="match_parent"></TextView>
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"></ImageButton>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
